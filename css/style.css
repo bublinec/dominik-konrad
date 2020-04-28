@@ -8463,7 +8463,7 @@ strong {
         right: 0; }
       .slider-text .logo a span {
         position: absolute;
-        top: -110px;
+        top: -1.05em;
         left: 0;
         right: 0;
         z-index: -1;
