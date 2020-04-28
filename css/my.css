@@ -2,3 +2,21 @@
     width: 60px;
     margin: 15px
 }
+
+html {
+    scrollbar-face-color: #9da1a5;
+    scrollbar-base-color: #9da1a5;
+    scrollbar-3dlight-color: #9da1a5;
+    scrollbar-highlight-color: #9da1a5;
+    scrollbar-track-color: #000;
+    scrollbar-arrow-color: #000;
+    scrollbar-shadow-color: #9da1a5;
+    scrollbar-dark-shadow-color: #9da1a5;
+  }
+  
+  ::-webkit-scrollbar { width: 11px; height: 3px;}
+  ::-webkit-scrollbar-track {  background-color: #9da1a5;}
+  ::-webkit-scrollbar-track-piece { background-color: #000;}
+  ::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
+  ::-webkit-scrollbar-corner { background-color: #9da1a5;}}
+  ::-webkit-resizer { background-color: #666;}
