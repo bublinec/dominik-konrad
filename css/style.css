@@ -8193,7 +8193,7 @@ strong {
 
 .navbar .nav-menu li {
   position: relative;
-  min-width: 200px;
+  min-width: 100px;
   text-align: right; }
 
 .navbar .nav-menu li .dot {
@@ -8981,7 +8981,8 @@ textarea.form-control {
   letter-spacing: 3px; }
 
 .ftco-section {
-  padding: 5em 0; }
+  padding: 0; 
+}
 
 .ftco-no-pt {
   padding-top: 0; }
@@ -9024,8 +9025,9 @@ textarea.form-control {
           font-size: 20px; }
 
 .ftco-footer {
+  margin-top: 3em;
   font-size: 16px;
-  padding: 7em 0;
+  padding: 6em 0;
   border-top: 1px solid rgba(255, 255, 255, 0.05); }
   .ftco-footer .ftco-footer-widget h2 {
     margin-bottom: 40px;
