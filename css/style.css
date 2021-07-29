@@ -11284,6 +11284,13 @@ strong {
     z-index: 0;
     position: relative;
 }
+
+@media (max-width: 480px) {
+    .model {
+        height: 60vh;
+    }
+}
+
 .model:after {
     position: absolute;
     top: 0;
@@ -11523,11 +11530,11 @@ strong {
     color: #9d8f8f;
 }
 .testimony-wrap .line {
-    position: relative;
-    border-left: 1px solid #4d4d4d;
+    /* position: relative;
+    border-left: 1px solid #4d4d4d; */
 }
 .testimony-wrap .line:after {
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     left: -2px;
     -webkit-transform: translateY(-50%);
@@ -11536,7 +11543,7 @@ strong {
     content: '';
     width: 3px;
     height: 30px;
-    background: #9d8f8f;
+    background: #9d8f8f; */
 }
 .testimony-wrap .text p {
     font-family: 'Noto Serif', serif;

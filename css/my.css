@@ -1,13 +1,48 @@
-body{
+body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.png-icon{
+.png-icon {
     width: 60px;
-    margin: 15px
+    margin: 15px;
 }
 
+.carousel-image {
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+    filter: blur(1px);
+    filter: brightness(0.6);
+    /* filter: contrast(200%); */
+    /* filter: drop-shadow(16px 16px 20px blue); */
+    /* filter: grayscale(50%); */
+    /* filter: hue-rotate(90deg); */
+    /* filter: invert(75%); */
+    /* filter: opacity(25%); */
+    /* filter: saturate(30%); */
+    /* filter: sepia(60%); */
+}
 
+.carousel-heading {
+    font-size: 5em;
+    text-shadow: 1px 1px 15px black;
+}
+
+.carousel-text {
+    font-size: 1.6em;
+    font-weight: lighter;
+    margin: 0 auto;
+    text-shadow: 1px 1px 10px black;
+}
+
+@media (max-width: 480px) {
+    .carousel-heading {
+        font-size: 4em;
+    }
+    .carousel-image {
+        height: 300px;
+    }
+}
 
 html {
     scrollbar-face-color: #9da1a5;
@@ -18,11 +53,26 @@ html {
     scrollbar-arrow-color: #000;
     scrollbar-shadow-color: #9da1a5;
     scrollbar-dark-shadow-color: #9da1a5;
-  }
-  
-  ::-webkit-scrollbar { width: 11px; height: 3px;}
-  ::-webkit-scrollbar-track {  background-color: #9da1a5;}
-  ::-webkit-scrollbar-track-piece { background-color: #000;}
-  ::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
-  ::-webkit-scrollbar-corner { background-color: #9da1a5;}}
-  ::-webkit-resizer { background-color: #666;}
+}
+
+::-webkit-scrollbar {
+    width: 11px;
+    height: 3px;
+}
+::-webkit-scrollbar-track {
+    background-color: #9da1a5;
+}
+::-webkit-scrollbar-track-piece {
+    background-color: #000;
+}
+::-webkit-scrollbar-thumb {
+    height: 50px;
+    background-color: #666;
+    border-radius: 3px;
+}
+::-webkit-scrollbar-corner {
+    background-color: #9da1a5;
+}
+::-webkit-resizer {
+    background-color: #666;
+}
